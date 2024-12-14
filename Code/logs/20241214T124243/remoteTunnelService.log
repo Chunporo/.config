@@ -1,1 +1,30 @@
 2024-12-14 12:42:46.398 [info] No other tunnel running
+2024-12-14 13:53:35.572 [info] Session updated: Chunporo (github) (service=false)
+2024-12-14 13:53:35.572 [info] Session token updated: Chunporo (github)
+2024-12-14 13:53:35.698 [info] No other tunnel running
+2024-12-14 13:53:35.778 [info] Running tunnel CLI
+
+2024-12-14 13:53:35.778 [info] tunnel Spawning: /opt/visual-studio-code/bin/code-tunnel tunnel --accept-server-license-terms --log info --name legion --parent-process-id 69189
+
+2024-12-14 13:53:35.789 [info] *
+
+2024-12-14 13:53:35.789 [info] * Visual Studio Code Server
+
+2024-12-14 13:53:35.789 [info] *
+
+2024-12-14 13:53:35.790 [info] * By using the software, you agree to
+
+2024-12-14 13:53:35.790 [info] * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+
+2024-12-14 13:53:35.790 [info] * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+
+2024-12-14 13:53:35.790 [info] *
+
+2024-12-14 13:53:39.745 [info] [2024-12-14 13:53:39] info Creating tunnel with the name: legion
+
+2024-12-14 13:53:46.032 [info] 
+
+2024-12-14 13:53:46.033 [info] Open this link in your browser https://vscode.dev/tunnel/legion
+
+2024-12-14 13:53:46.033 [info] 
+

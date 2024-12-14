@@ -20,3 +20,18 @@
 2024-12-14 13:51:32.189 [info] Using in-memory cached assignable users.
 2024-12-14 13:51:32.283 [info] Review+0> No matching pull request metadata found locally for current branch main
 2024-12-14 13:51:32.541 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-12-14 13:52:58.920 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-12-14 13:52:58.920 [info] No GitHub remotes found for folder /home/chunporo/.config
+2024-12-14 13:54:03.318 [info] Review+0> Validate state in progress
+2024-12-14 13:54:03.318 [info] Review+0> Validating state...
+2024-12-14 13:54:03.321 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-12-14 13:54:03.321 [info] No GitHub remotes found for folder /home/chunporo/.config
+2024-12-14 13:54:03.372 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-12-14 13:54:03.455 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-12-14 13:54:14.439 [info] Review+0> Validate state in progress
+2024-12-14 13:54:14.439 [info] Review+0> Validating state...
+2024-12-14 13:54:14.508 [info] Found GitHub remote for folder /home/chunporo/.config
+2024-12-14 13:54:15.024 [info] Trying to use globalState for assignableUsers.
+2024-12-14 13:54:15.126 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-12-14 13:54:15.127 [info] GlobalState does not exist for assignableUsers.
+2024-12-14 13:54:15.163 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

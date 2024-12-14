@@ -163,3 +163,294 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2024-12-14 13:51:39.507 [info] > git status -z -uall [20ms]
 2024-12-14 13:51:39.507 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
 2024-12-14 13:51:56.088 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-14 13:51:58.099 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-14 13:52:00.572 [info] > git add -A -- . [13083ms]
+2024-12-14 13:52:01.054 [info] > git show --textconv :.git/COMMIT_EDITMSG [29ms]
+2024-12-14 13:52:01.056 [info] > git ls-files --stage -- /home/chunporo/.config/.git/COMMIT_EDITMSG [3ms]
+2024-12-14 13:52:01.375 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-14 13:52:01.975 [info] > git ls-files --stage -- /home/chunporo/.config/.git/COMMIT_EDITMSG [1ms]
+2024-12-14 13:52:01.999 [info] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+2024-12-14 13:52:24.052 [info] > git -c user.useConfigOnly=true commit --quiet [23463ms]
+2024-12-14 13:52:24.052 [info] Aborting commit due to empty commit message.
+2024-12-14 13:52:24.082 [info] > git config --get commit.template [5ms]
+2024-12-14 13:52:24.111 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:52:24.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:52:24.112 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:52:24.176 [info] > git status -z -uall [37ms]
+2024-12-14 13:52:24.176 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-12-14 13:52:24.255 [info] > git config --get commit.template [2ms]
+2024-12-14 13:52:24.255 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:52:24.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:52:24.278 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:52:24.539 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [215ms]
+2024-12-14 13:52:24.545 [info] > git status -z -uall [243ms]
+2024-12-14 13:52:24.946 [info] > git show --textconv :sway/config [60ms]
+2024-12-14 13:52:24.946 [info] > git show --textconv HEAD:sway/config [41ms]
+2024-12-14 13:52:24.946 [info] > git ls-tree -l HEAD -- /home/chunporo/.config/sway/config [4ms]
+2024-12-14 13:52:24.946 [info] fatal: Not a valid object name HEAD
+2024-12-14 13:52:24.947 [info] > git ls-files --stage -- /home/chunporo/.config/sway/config [23ms]
+2024-12-14 13:52:24.966 [info] > git check-ignore -v -z --stdin [99ms]
+2024-12-14 13:52:24.967 [info] > git cat-file -s 0adec05f91025073c5850d93928c6e219c2fa7dc [3ms]
+2024-12-14 13:52:29.061 [info] > git check-ignore -v -z --stdin [12ms]
+2024-12-14 13:52:29.599 [info] > git config --get commit.template [2ms]
+2024-12-14 13:52:29.620 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:52:29.620 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:52:29.622 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:52:29.664 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-14 13:52:29.665 [info] > git status -z -uall [23ms]
+2024-12-14 13:52:30.740 [info] > git check-ignore -v -z --stdin [5ms]
+2024-12-14 13:52:34.731 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:52:34.732 [info] > git config --get commit.template [22ms]
+2024-12-14 13:52:34.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:52:34.732 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:52:34.775 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:52:34.776 [info] > git status -z -uall [23ms]
+2024-12-14 13:52:39.871 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:52:39.874 [info] > git config --get commit.template [35ms]
+2024-12-14 13:52:39.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-14 13:52:39.874 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:52:39.924 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-14 13:52:39.926 [info] > git status -z -uall [27ms]
+2024-12-14 13:52:45.014 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:52:45.015 [info] > git config --get commit.template [34ms]
+2024-12-14 13:52:45.015 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:52:45.016 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:52:45.080 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:52:45.081 [info] > git status -z -uall [35ms]
+2024-12-14 13:52:50.149 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:52:50.149 [info] > git config --get commit.template [18ms]
+2024-12-14 13:52:50.150 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:52:50.150 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:52:50.194 [info] > git status -z -uall [27ms]
+2024-12-14 13:52:50.195 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-14 13:52:55.255 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:52:55.256 [info] > git config --get commit.template [21ms]
+2024-12-14 13:52:55.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:52:55.256 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:52:55.300 [info] > git status -z -uall [25ms]
+2024-12-14 13:52:55.300 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:53:00.355 [info] > git config --get commit.template [1ms]
+2024-12-14 13:53:00.379 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:00.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-14 13:53:00.382 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:00.438 [info] > git status -z -uall [31ms]
+2024-12-14 13:53:00.439 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-12-14 13:53:01.248 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-14 13:53:07.697 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:07.697 [info] > git config --get commit.template [26ms]
+2024-12-14 13:53:07.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:53:07.699 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:07.747 [info] > git status -z -uall [27ms]
+2024-12-14 13:53:07.747 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:53:12.799 [info] > git config --get commit.template [1ms]
+2024-12-14 13:53:12.820 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:12.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:53:12.821 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:12.866 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-14 13:53:12.867 [info] > git status -z -uall [25ms]
+2024-12-14 13:53:17.916 [info] > git config --get commit.template [1ms]
+2024-12-14 13:53:17.938 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:17.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:53:17.939 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:17.988 [info] > git status -z -uall [27ms]
+2024-12-14 13:53:17.988 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-14 13:53:23.040 [info] > git config --get commit.template [1ms]
+2024-12-14 13:53:23.063 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:23.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:53:23.064 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:23.112 [info] > git status -z -uall [24ms]
+2024-12-14 13:53:23.112 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:53:28.167 [info] > git config --get commit.template [2ms]
+2024-12-14 13:53:28.190 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:28.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:53:28.191 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:28.234 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:53:28.235 [info] > git status -z -uall [24ms]
+2024-12-14 13:53:35.240 [info] > git config --get commit.template [2ms]
+2024-12-14 13:53:35.240 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:35.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:53:35.260 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:35.298 [info] > git status -z -uall [20ms]
+2024-12-14 13:53:35.298 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-14 13:53:40.343 [info] > git config --get commit.template [1ms]
+2024-12-14 13:53:40.368 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:40.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:53:40.370 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:40.422 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-14 13:53:40.423 [info] > git status -z -uall [30ms]
+2024-12-14 13:53:45.502 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:45.503 [info] > git config --get commit.template [28ms]
+2024-12-14 13:53:45.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-14 13:53:45.506 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:45.559 [info] > git status -z -uall [29ms]
+2024-12-14 13:53:45.559 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-14 13:53:46.085 [info] > git check-ignore -v -z --stdin [5ms]
+2024-12-14 13:53:50.615 [info] > git config --get commit.template [1ms]
+2024-12-14 13:53:50.616 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:50.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:53:50.636 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:50.680 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-14 13:53:50.682 [info] > git status -z -uall [26ms]
+2024-12-14 13:53:55.762 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:53:55.762 [info] > git config --get commit.template [22ms]
+2024-12-14 13:53:55.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:53:55.763 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:53:55.808 [info] > git status -z -uall [25ms]
+2024-12-14 13:53:55.808 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-14 13:54:00.883 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:54:00.884 [info] > git config --get commit.template [21ms]
+2024-12-14 13:54:00.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:54:00.884 [warning] [Git][getBranch] No such branch: main
+2024-12-14 13:54:00.929 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:54:00.930 [info] > git status -z -uall [24ms]
+2024-12-14 13:54:03.172 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [19ms]
+2024-12-14 13:54:03.193 [info] > git config --get commit.template [1ms]
+2024-12-14 13:54:03.217 [info] > git config --get commit.template [1ms]
+2024-12-14 13:54:03.250 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:54:03.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-14 13:54:03.307 [info] > git status -z -uall [26ms]
+2024-12-14 13:54:03.307 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-14 13:54:03.350 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-12-14 13:54:03.350 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-14 13:54:03.374 [info] > git config --local branch.main.remote [2ms]
+2024-12-14 13:54:03.374 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-14 13:54:03.455 [info] > git config --local branch.main.merge [58ms]
+2024-12-14 13:54:03.455 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-14 13:54:03.460 [info] > git config --get commit.template [6ms]
+2024-12-14 13:54:03.489 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:54:03.491 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:54:03.556 [info] > git status -z -uall [35ms]
+2024-12-14 13:54:03.558 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-14 13:54:03.607 [info] > git blame --root --incremental f3d6459aec319ccd20ab7ade23866d2460ef9235 -- /home/chunporo/.config/sway/config [1ms]
+2024-12-14 13:54:03.895 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-14 13:54:04.587 [info] > git ls-files --stage -- /home/chunporo/.config/sway/config [1ms]
+2024-12-14 13:54:04.613 [info] > git cat-file -s 0adec05f91025073c5850d93928c6e219c2fa7dc [1ms]
+2024-12-14 13:54:04.639 [info] > git show --textconv :sway/config [2ms]
+2024-12-14 13:54:04.676 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1251ms]
+2024-12-14 13:54:05.983 [info] > git config --get commit.template [2ms]
+2024-12-14 13:54:06.004 [info] [Git][getRemotes] No remotes found in the git config file
+2024-12-14 13:54:06.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:54:06.047 [info] > git status -z -uall [22ms]
+2024-12-14 13:54:06.048 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-14 13:54:14.300 [info] > git remote add origin https://github.com/Chunporo/.config.git [7ms]
+2024-12-14 13:54:14.367 [info] > git config --get commit.template [35ms]
+2024-12-14 13:54:14.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:54:14.436 [info] > git status -z -uall [36ms]
+2024-12-14 13:54:14.437 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:54:14.507 [info] > git config --get commit.template [1ms]
+2024-12-14 13:54:14.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:54:14.607 [info] > git status -z -uall [31ms]
+2024-12-14 13:54:14.608 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:54:15.108 [info] > git config --local branch.main.github-pr-owner-number [59ms]
+2024-12-14 13:54:15.108 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-14 13:54:15.143 [info] > git config --local branch.main.remote [17ms]
+2024-12-14 13:54:15.143 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-14 13:54:15.163 [info] > git config --local branch.main.merge [2ms]
+2024-12-14 13:54:15.163 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-14 13:54:15.562 [info] > git ls-files --stage -- /home/chunporo/.config/sway/config [1ms]
+2024-12-14 13:54:15.584 [info] > git cat-file -s 0adec05f91025073c5850d93928c6e219c2fa7dc [0ms]
+2024-12-14 13:54:15.612 [info] > git show --textconv :sway/config [3ms]
+2024-12-14 13:54:20.187 [info] > git check-ignore -v -z --stdin [7ms]
+2024-12-14 13:57:11.064 [info] > git push -u origin main [176591ms]
+2024-12-14 13:57:11.064 [info] remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— Discord Bot Token —————————————————————————————————        
+remote:        locations:        
+remote:          - blob id: 1831f1b643d7e9cd351edd3b0534ae3d44363504        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/Chunporo/.config/security/secret-scanning/unblock-secret/2qCH2vie9DPxxG3tyrbHtLQK26B        
+remote:             
+remote:             
+remote:     ——[ WARNING ]—————————————————————————————————————————        
+remote:      Scan incomplete: This push was large and we didn't finish on time.        
+remote:      It can still contain undetected secrets.        
+remote:             
+remote:      (?) Use the following command to find the path of the detected secret(s):        
+remote:          git rev-list --objects --all | grep blobid        
+remote:     ——————————————————————————————————————————————————————        
+remote: 
+remote: 
+To https://github.com/Chunporo/.config.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/Chunporo/.config.git'
+2024-12-14 13:57:11.112 [info] > git config --get commit.template [24ms]
+2024-12-14 13:57:11.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:57:11.161 [info] > git status -z -uall [26ms]
+2024-12-14 13:57:11.162 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:57:11.819 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-14 13:57:12.135 [info] > git fetch [945ms]
+2024-12-14 13:57:12.179 [info] > git config --get commit.template [21ms]
+2024-12-14 13:57:12.179 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:57:12.221 [info] > git status -z -uall [22ms]
+2024-12-14 13:57:12.222 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:57:44.305 [info] > git ls-files --stage -- /home/chunporo/.config/sway/config [2ms]
+2024-12-14 13:57:44.329 [info] > git cat-file -s 0adec05f91025073c5850d93928c6e219c2fa7dc [2ms]
+2024-12-14 13:57:44.355 [info] > git show --textconv :sway/config [2ms]
+2024-12-14 13:57:45.790 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-14 13:57:52.234 [info] > git config --get commit.template [1ms]
+2024-12-14 13:57:52.266 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:57:52.318 [info] > git status -z -uall [28ms]
+2024-12-14 13:57:52.324 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-12-14 13:57:54.596 [info] > git show --textconv :sway/config [28ms]
+2024-12-14 13:57:54.597 [info] > git ls-files --stage -- /home/chunporo/.config/sway/config [2ms]
+2024-12-14 13:57:54.621 [info] > git cat-file -s 0adec05f91025073c5850d93928c6e219c2fa7dc [2ms]
+2024-12-14 13:57:57.376 [info] > git config --get commit.template [22ms]
+2024-12-14 13:57:57.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:57:57.419 [info] > git status -z -uall [22ms]
+2024-12-14 13:57:57.420 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:58:06.324 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-14 13:58:08.523 [info] > git config --get commit.template [24ms]
+2024-12-14 13:58:08.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:58:08.566 [info] > git status -z -uall [22ms]
+2024-12-14 13:58:08.567 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:58:12.010 [info] > git ls-files --stage -- /home/chunporo/.config/sway/config [2ms]
+2024-12-14 13:58:12.031 [info] > git cat-file -s 0adec05f91025073c5850d93928c6e219c2fa7dc [1ms]
+2024-12-14 13:58:12.054 [info] > git show --textconv :sway/config [2ms]
+2024-12-14 13:58:13.611 [info] > git config --get commit.template [23ms]
+2024-12-14 13:58:13.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-12-14 13:58:13.650 [info] > git status -z -uall [21ms]
+2024-12-14 13:58:13.650 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-14 13:58:14.304 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-14 13:58:18.674 [info] > git config --get commit.template [1ms]
+2024-12-14 13:58:18.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:58:18.733 [info] > git status -z -uall [21ms]
+2024-12-14 13:58:18.733 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-14 13:58:23.764 [info] > git config --get commit.template [1ms]
+2024-12-14 13:58:23.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-14 13:58:23.828 [info] > git status -z -uall [22ms]
+2024-12-14 13:58:23.829 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:58:24.622 [info] > git log --oneline --cherry main...main@{upstream} -- [2ms]
+2024-12-14 13:58:24.622 [info] fatal: no upstream configured for branch 'main'
+2024-12-14 13:58:25.497 [info] > git pull --tags [848ms]
+2024-12-14 13:58:25.497 [info] There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+2024-12-14 13:58:25.543 [info] > git config --get commit.template [22ms]
+2024-12-14 13:58:25.544 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-14 13:58:25.591 [info] > git status -z -uall [23ms]
+2024-12-14 13:58:25.592 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:58:28.897 [info] > git config --get commit.template [23ms]
+2024-12-14 13:58:28.918 [info] > git ls-files --stage -- /home/chunporo/.config/sway/config [21ms]
+2024-12-14 13:58:28.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-12-14 13:58:28.983 [info] > git status -z -uall [23ms]
+2024-12-14 13:58:28.983 [info] > git cat-file -s 0adec05f91025073c5850d93928c6e219c2fa7dc [44ms]
+2024-12-14 13:58:28.984 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-14 13:58:29.006 [info] > git show --textconv :sway/config [2ms]

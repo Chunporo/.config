@@ -17,3 +17,24 @@
 [2024-12-14 13:51:32.953] > git rev-parse --show-toplevel
 [2024-12-14 13:51:32.954] Added new repo: /home/chunporo/.config
 [2024-12-14 13:51:32.955] Showing "Git Graph" Status Bar Item
+[2024-12-14 13:58:10.359] Created Git Graph View (active repo: /home/chunporo/.config)
+[2024-12-14 13:58:10.543] > git branch -a --no-color
+[2024-12-14 13:58:10.566] > git remote
+[2024-12-14 13:58:10.588] > git reflog --format=... refs/stash --
+[2024-12-14 13:58:10.589] Started watching repo: /home/chunporo/.config
+[2024-12-14 13:58:10.613] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-12-14 13:58:10.633] > git show-ref -d --head
+[2024-12-14 13:58:10.657] > git status --untracked-files=all --porcelain
+[2024-12-14 13:58:10.713] > git --no-pager config --list -z --includes
+[2024-12-14 13:58:10.732] > git --no-pager config --list -z --includes --local
+[2024-12-14 13:58:10.751] > git --no-pager config --list -z --includes --global
+[2024-12-14 13:58:12.877] > git -c log.showSignature=false show --quiet f3d6459aec319ccd20ab7ade23866d2460ef9235 --format=...
+[2024-12-14 13:58:12.900] > git diff-tree --name-status -r --root --find-renames --diff-filter=AMDR -z f3d6459aec319ccd20ab7ade23866d2460ef9235
+[2024-12-14 13:58:12.922] > git diff-tree --numstat -r --root --find-renames --diff-filter=AMDR -z f3d6459aec319ccd20ab7ade23866d2460ef9235
+[2024-12-14 13:58:19.725] > git branch -a --no-color
+[2024-12-14 13:58:19.743] > git remote
+[2024-12-14 13:58:19.762] > git reflog --format=... refs/stash --
+[2024-12-14 13:58:19.842] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-12-14 13:58:19.860] > git show-ref -d --head
+[2024-12-14 13:58:19.880] > git status --untracked-files=all --porcelain
+[2024-12-14 13:58:20.875] Stopped watching repo: /home/chunporo/.config

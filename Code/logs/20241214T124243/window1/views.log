@@ -24,3 +24,6 @@
 2024-12-14 13:51:31.914 [info] Added views:github:login in workbench.view.extension.github-pull-requests
 2024-12-14 13:51:31.936 [info] Added views:github:activePullRequest:welcome in workbench.view.extension.github-pull-request
 2024-12-14 13:51:32.067 [info] Removed views:github:activePullRequest:welcome from workbench.view.extension.github-pull-request
+2024-12-14 13:52:58.922 [info] Removed views:github:login from workbench.view.extension.github-pull-requests
+2024-12-14 13:52:58.923 [info] Added views:pr:github,issues:github in workbench.view.extension.github-pull-requests
+2024-12-14 13:54:14.521 [info] Added views:workbench.panel.comments in workbench.panel.comments

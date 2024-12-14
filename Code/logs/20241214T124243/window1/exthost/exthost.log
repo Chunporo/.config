@@ -66,3 +66,38 @@ Use '--' to separate paths from revisions, like this:
     at Socket.<anonymous> (node:internal/child_process:456:11)
     at Socket.emit (node:events:518:28)
     at Pipe.<anonymous> (node:net:343:12) commitMsg.autofill {"value":"MichaelCurrin.auto-commit-msg","_lower":"michaelcurrin.auto-commit-msg"}
+2024-12-14 13:52:24.212 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:52:24.572 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:52:29.099 [error] Error: Command failed: git -c "core.quotePath=false" diff-index --name-status --find-renames --find-copies --no-color --cached HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Pipe.<anonymous> (node:net:343:12) commitMsg.autofill {"value":"MichaelCurrin.auto-commit-msg","_lower":"michaelcurrin.auto-commit-msg"}
+2024-12-14 13:52:29.682 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:52:34.802 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:52:39.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:52:45.107 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:52:50.211 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:52:55.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:53:00.461 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:53:07.769 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:53:12.888 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:53:18.010 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:53:23.136 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4742
+2024-12-14 13:53:26.575 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2024-12-14 13:53:28.257 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4743
+2024-12-14 13:53:35.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4743
+2024-12-14 13:53:40.447 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4743
+2024-12-14 13:53:45.577 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4743
+2024-12-14 13:53:50.705 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4743
+2024-12-14 13:53:55.831 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4743
+2024-12-14 13:54:00.951 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4743
+2024-12-14 13:54:03.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4743
