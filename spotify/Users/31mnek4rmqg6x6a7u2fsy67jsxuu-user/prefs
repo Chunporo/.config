@@ -1,0 +1,3 @@
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.1.86\",\"app_state\":\"MISSING\",\"created_timestamp\":1734008378,\"device_id\":\"fb73ab9f-fdb5-42f2-8da3-e8628c06143b\",\"dial_location_url\":\"http://192.168.1.86:7678/nservice/\",\"display_name\":\"[TV] Samsung 8 Series (55)\",\"last_seen\":1734008403,\"manufacturer\":\"Samsung Electronics\",\"model_name\":\"UA55TU8100KXXV\",\"product_cap\":\"Resolution:1920X1080,Tizen,Y2017\",\"public_ip\":\"116.96.77.117\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"bc7e8bdae322\",\"port\":9,\"retries\":400}}]"
+ui.hide_hpto=true

@@ -1,0 +1,116 @@
+2024-12-14 00:21:49.576 [info] Extension host with pid 9630 started
+2024-12-14 00:21:49.729 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-14 00:21:49.782 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-14 00:21:49.784 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-12-14 00:21:49.785 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-12-14 00:21:49.807 [info] ExtensionService#_doActivateExtension icrawl.discord-vscode, startup: true, activationEvent: '*'
+2024-12-14 00:21:49.822 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-12-14 00:21:49.833 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2024-12-14 00:21:49.835 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2024-12-14 00:21:50.004 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-14 00:21:50.059 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-14 00:21:50.151 [info] Eager extensions activated
+2024-12-14 00:21:50.160 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.162 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.176 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.188 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.223 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.510 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.511 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.516 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.534 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.588 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onStartupFinished', root cause: expo.vscode-expo-tools
+2024-12-14 00:21:50.652 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.660 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.734 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.769 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.873 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.938 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.946 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.948 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.952 [info] ExtensionService#_doActivateExtension yy0931.vscode-sqlite3-editor, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:50.987 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:51.017 [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/home/chunporo/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24881)
+    at /home/chunporo/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24968
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/home/chunporo/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24925)
+    at RPCClient.destroy (/home/chunporo/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:18626)
+    at login (/home/chunporo/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:149260)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at activate (/home/chunporo/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:151363)
+    at K0.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+    at K0.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+    at K0.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2024-12-14 00:21:51.098 [info] ExtensionService#_doActivateExtension expo.vscode-expo-tools, startup: false, activationEvent: 'onStartupFinished'
+2024-12-14 00:21:51.186 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2024-12-14 00:21:53.266 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-14 00:21:53.302 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new IT (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at V0.resolveProxy (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:53869)
+    at Object.resolveProxy (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:17332)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+    at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:205:13
+    at new Promise (<anonymous>)
+    at resolveProxyURL (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:204:35)
+    at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:518:53
+    at Generator.next (<anonymous>)
+    at /opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+    at patchedFetch (/opt/visual-studio-code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:507:16)
+    at globalThis.fetch (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:19806)
+    at PostHog2.fetch (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:61143:75)
+    at PostHog2.<anonymous> (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59773:45)
+    at step (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58605:24)
+    at Object.next (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58552:18)
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58538:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58520:14)
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59764:28
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58682:26
+    at step (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58605:24)
+    at Object.next (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58552:18)
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58538:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58520:14)
+    at retriable (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58658:14)
+    at PostHog2.<anonymous> (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59763:30)
+    at step (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58605:24)
+    at Object.next (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58552:18)
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58538:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58520:14)
+    at PostHog2.PostHogCoreStateless2.fetchWithRetry (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59751:18)
+    at PostHog2.<anonymous> (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59501:31)
+    at step (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58605:24)
+    at Object.next (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58552:18)
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58538:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58520:14)
+    at PostHog2.PostHogCoreStateless2.getDecide (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59491:18)
+    at PostHog2.<anonymous> (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59647:35)
+    at step (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58605:24)
+    at Object.next (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58552:18)
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58538:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58520:14)
+    at PostHog2.PostHogCoreStateless2.getFeatureFlagsAndPayloadsStateless (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59638:18)
+    at PostHog2.<anonymous> (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59621:35)
+    at step (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58605:24)
+    at Object.next (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58552:18)
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58538:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58520:14)
+    at PostHog2.PostHogCoreStateless2.getFeatureFlagsStateless (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:59617:18)
+    at PostHog2.<anonymous> (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:61192:65)
+    at step (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58605:24)
+    at Object.next (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58552:18)
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58538:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:58520:14)
+    at /home/chunporo/.vscode/extensions/continue.continue-0.8.61-linux-x64/out/extension.js:61179:20
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-12-14 00:21:53.326 [info] Extension host with pid 9630 exiting with code 0

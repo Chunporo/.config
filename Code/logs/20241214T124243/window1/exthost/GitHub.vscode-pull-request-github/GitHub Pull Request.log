@@ -1,0 +1,22 @@
+2024-12-14 12:42:48.375 [warning] /home/chunporo/.ssh/config: ENOENT: no such file or directory, open '/home/chunporo/.ssh/config'
+2024-12-14 12:42:48.375 [info] Activation> Extension version: 0.102.0
+2024-12-14 12:42:48.748 [info] Looking for git repository
+2024-12-14 12:42:48.748 [info] Found 0 repositories during activation
+2024-12-14 12:42:48.748 [info] Git repository found, initializing review manager and pr tree view.
+2024-12-14 12:42:48.748 [info] Registering git provider
+2024-12-14 13:51:31.838 [info] Repository file:///home/chunporo/.config has been opened
+2024-12-14 13:51:31.838 [info] Review+0> Validate state in progress
+2024-12-14 13:51:31.838 [info] Review+0> Validating state...
+2024-12-14 13:51:31.839 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-12-14 13:51:31.839 [info] No GitHub remotes found for folder /home/chunporo/.config
+2024-12-14 13:51:31.840 [info] Trying to use globalState for assignableUsers.
+2024-12-14 13:51:32.031 [info] GlobalState does not exist for assignableUsers.
+2024-12-14 13:51:32.186 [info] Review+0> Validate state in progress
+2024-12-14 13:51:32.186 [info] Review+0> Validating state...
+2024-12-14 13:51:32.186 [info] Repo state for file:///home/chunporo/.config changed.
+2024-12-14 13:51:32.186 [info] Repo file:///home/chunporo/.config has already been setup.
+2024-12-14 13:51:32.189 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-12-14 13:51:32.189 [info] No GitHub remotes found for folder /home/chunporo/.config
+2024-12-14 13:51:32.189 [info] Using in-memory cached assignable users.
+2024-12-14 13:51:32.283 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-12-14 13:51:32.541 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

@@ -1,0 +1,6 @@
+2024/12/14-02:04:49.558 23a80 Reusing MANIFEST /home/chunporo/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/12/14-02:04:49.561 23a80 Recovering log #4
+2024/12/14-02:04:49.562 23a80 Reusing old log /home/chunporo/.config/vesktop/sessionData/Local Storage/leveldb/000004.log 
+2024/12/14-02:05:49.735 23a80 Level-0 table #8: started
+2024/12/14-02:05:49.740 23a80 Level-0 table #8: 31354 bytes OK
+2024/12/14-02:05:49.741 23a80 Delete type=0 #4

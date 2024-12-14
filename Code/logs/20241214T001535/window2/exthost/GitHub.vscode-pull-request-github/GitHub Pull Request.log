@@ -1,0 +1,7 @@
+2024-12-14 00:15:40.677 [warning] /home/chunporo/.ssh/config: ENOENT: no such file or directory, open '/home/chunporo/.ssh/config'
+2024-12-14 00:15:40.677 [info] Activation> Extension version: 0.102.0
+2024-12-14 00:15:41.007 [info] Looking for git repository
+2024-12-14 00:15:41.007 [info] Found 0 repositories during activation
+2024-12-14 00:15:41.007 [info] Git repository found, initializing review manager and pr tree view.
+2024-12-14 00:15:41.008 [info] Registering git provider
+2024-12-14 00:15:41.143 [info] Git initialization state changed: state=initialized

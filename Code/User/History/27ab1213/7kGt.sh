@@ -1,0 +1,1 @@
+sysctl dev.cpu.0.temperature | awk '{print $2}'

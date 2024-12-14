@@ -1,0 +1,85 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 1034,
+      "width": 946,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1034,
+      "width": 946,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1034,
+      "width": 946,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA7EAAAQJAAAAAAAAAAAAAAOxAAAECQAAAAAAAAAAB4AAAAAAAAAAAAAAA7EAAAQJ"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "China Star Optoelectronics Technology Co., Ltd",
+      "model": "0x150F",
+      "name": "eDP-2",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAADsgAABAoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "key": "/home/chunporo/Downloads/blame_c001 _ c010.cbz",
+        "pathtoebook": "/home/chunporo/Downloads/blame_c001 _ c010.cbz",
+        "timestamp": "2024-12-13T21:23:08.592Z",
+        "title": "blame c001   c010"
+      },
+      {
+        "authors": [
+          "John Schember"
+        ],
+        "key": "/home/chunporo/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub",
+        "pathtoebook": "/home/chunporo/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub",
+        "timestamp": "2024-12-13T21:00:08.424Z",
+        "title": "Quick Start Guide"
+      }
+    ]
+  }
+}

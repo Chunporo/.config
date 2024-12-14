@@ -1,0 +1,19 @@
+[2024-12-14 12:42:46.314] Starting Git Graph ...
+[2024-12-14 12:42:46.330] Using git (version: 2.47.1)
+[2024-12-14 12:42:46.334] Started Git Graph - Ready to use!
+[2024-12-14 12:42:46.335] Searching workspace for new repos ...
+[2024-12-14 12:42:46.340] > git rev-parse --show-toplevel
+[2024-12-14 12:42:46.342] Completed searching workspace for new repos
+[2024-12-14 12:42:46.423] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2024-12-14 12:42:48.347] > git rev-parse --show-toplevel
+[2024-12-14 12:42:48.428] > git rev-parse --show-toplevel
+[2024-12-14 12:42:48.638] > git rev-parse --show-toplevel
+[2024-12-14 12:42:48.685] > git rev-parse --show-toplevel
+[2024-12-14 12:42:48.701] > git rev-parse --show-toplevel
+[2024-12-14 12:42:48.736] > git rev-parse --show-toplevel
+[2024-12-14 12:42:48.777] > git rev-parse --show-toplevel
+[2024-12-14 12:42:50.998] > git rev-parse --show-toplevel
+[2024-12-14 12:42:53.746] > git rev-parse --show-toplevel
+[2024-12-14 13:51:32.953] > git rev-parse --show-toplevel
+[2024-12-14 13:51:32.954] Added new repo: /home/chunporo/.config
+[2024-12-14 13:51:32.955] Showing "Git Graph" Status Bar Item

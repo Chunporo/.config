@@ -1,0 +1,179 @@
+{
+  "editor.lineHeight": 20,
+  "terminal.integrated.fontSize": 14,
+  "editor.fontFamily": "CommitMonoChunporo Nerd Font",
+  "editor.fontLigatures": true,
+
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "workbench.colorCustomizations": {
+    "[Material Theme High Contrast]": {
+      "activityBarBadge.background": "#2979FF",
+      "activityBar.activeBorder": "#2979FF",
+      "list.activeSelectionForeground": "#2979FF",
+      "list.inactiveSelectionForeground": "#2979FF",
+      "list.highlightForeground": "#2979FF",
+      "scrollbarSlider.activeBackground": "#2979FF50",
+      "editorSuggestWidget.highlightForeground": "#2979FF",
+      "textLink.foreground": "#2979FF",
+      "progressBar.background": "#2979FF",
+      "pickerGroup.foreground": "#2979FF",
+      "tab.activeBorder": "#2979FF",
+      "notificationLink.foreground": "#2979FF",
+      "editorWidget.resizeBorder": "#2979FF",
+      "editorWidget.border": "#2979FF",
+      "settings.modifiedItemIndicator": "#2979FF",
+      "settings.headerForeground": "#2979FF",
+      "panelTitle.activeBorder": "#2979FF",
+      "breadcrumb.activeSelectionForeground": "#2979FF",
+      "menu.selectionForeground": "#2979FF",
+      "menubar.selectionForeground": "#2979FF",
+      "editor.findMatchBorder": "#2979FF",
+      "selection.background": "#2979FF40",
+      "statusBarItem.remoteBackground": "#2979FF"
+    }
+  },
+  "materialTheme.accent": "Blue",
+  "synthwave84.disableGlow": true,
+  "editor.formatOnType": true,
+  "editor.codeLensFontFamily": "CommitMonoChunporo Nerd Font",
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "git.openRepositoryInParentFolders": "never",
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.formatOnPaste": true,
+  // "terminal.integrated.enableMultiLinePasteWarning": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotVerifyTags": true,
+  "redhat.telemetry.enabled": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  // "[python]": {
+  //   "editor.defaultFormatter": "ms-python.black-formatter"
+  // },
+  "python.formatting.provider": "none",
+  "notebook.lineNumbers": "on",
+  "cmake.configureOnOpen": true,
+  "editor.accessibilitySupport": "off",
+  "vscode-pets.petColor": "black",
+  "editor.tokenColorCustomizations": {},
+  "remote.WSL.fileWatcher.polling": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "editor.linkedEditing": true,
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-1106",
+  "git.autofetch": true,
+  "svg.preview.mode": "img",
+  "dart.flutterSdkPath": "C:\\dev\\flutter",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "python.analysis.fixAll": [],
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "markdown-preview-enhanced.codeBlockTheme": "auto.css",
+  "markdown-preview-enhanced.revealjsTheme": "simple.css",
+  "markdown-preview-enhanced.enablePreviewZenMode": false,
+  "git.confirmSync": false,
+  "workbench.startupEditor": "none",
+  "editor.largeFileOptimizations": false,
+  "gitlens.launchpad.indicator.enabled": false,
+  "emmet.includeLanguages": {
+    "django-html": "html",
+    "jinja-html": "html"
+  },
+  "python.createEnvironment.trigger": "off",
+  "explorer.confirmPasteNative": false,
+  "explorer.confirmDragAndDrop": false,
+  "security.promptForRemoteFileProtocolHandling": false,
+  "workbench.editorAssociations": {
+    "*.pdf": "latex-workshop-pdf-hook",
+    "file:/**/*.csv": "jupyter-data-wrangler"
+  },
+  "latex-workshop.intellisense.bibtexJSON.replace": {},
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-shell-escape", // <-- Add this line
+        "--file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-shell-escape", // <-- Add this line
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "lualatex",
+      "command": "lualatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-shell-escape", // <-- Add this line
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "biber",
+      "command": "biber",
+      "args": ["%DOCFILE%"]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex",
+      "tools": ["pdflatex"]
+    },
+    {
+      "name": "xelatex",
+      "tools": ["xelatex"]
+    },
+    {
+      "name": "lualatex",
+      "tools": ["lualatex"]
+    },
+    {
+      "name": "pdflatex -> biber -> pdflatex*2",
+      "tools": ["pdflatex", "biber", "pdflatex", "pdflatex"]
+    }
+  ],
+  "latex-workshop.intellisense.biblatexJSON.replace": {},
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.fontSize": 17,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "terminal.integrated.enableImages": true
+}
