@@ -35,3 +35,9 @@
 2024-12-14 13:54:15.126 [info] Review+0> No matching pull request metadata found locally for current branch main
 2024-12-14 13:54:15.127 [info] GlobalState does not exist for assignableUsers.
 2024-12-14 13:54:15.163 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-12-14 13:58:37.751 [info] Review+0> Validate state in progress
+2024-12-14 13:58:37.751 [info] Review+0> Validating state...
+2024-12-14 13:58:37.843 [info] Found GitHub remote for folder /home/chunporo/.config
+2024-12-14 13:58:37.844 [info] Using in-memory cached assignable users.
+2024-12-14 13:58:37.945 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-12-14 13:58:38.020 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
